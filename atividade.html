@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="atividade.css">
+</head>
+<body>
+ <form action="">
+    <fieldset class="borda">
+       <legend class="titulo">cadastro de pessoas:</legend>
+             <div>
+                <label for="nome"  class="hero-img">nome:</label>
+                <input type="text" name="nome" required class="campo" id="nome"  placeholder="digite o seu nome"><br>
+             </div>
+
+       <div>
+        <label for="sobrenome">sobrenome:</label>
+        <input type="text" name="sobrenome" required class="campo" id="sobrenome"  placeholder="digite o seu sobrenome"><br>
+       </div>
+
+            <div>
+              <label for="email">email:</label>
+             <input type="email" name="email" id="email"  placeholder="digite o seu email"><br>
+            </div>
+
+        <div>
+            <label for="senha">senha:</label>
+            <input type="password" name="password" id="password" placeholder="digite sua senha"><br>
+        </div>
+
+             <div>
+                <label for="data de nascimento">data de nascimento</label>
+                <input type="date" name="" id="data"><br>
+             </div>
+        
+        <div>
+            <label for="comida favorita" >comida favorita:</label>
+            <ul class="escolha">
+                <li><input type="checkbox" name="comida[]" id="" value="Pizza">Hambúrguer</li>
+                <li><input type="checkbox" name="comida[]" id="" value="Sushi">Pizza</li>
+                <li><input type="checkbox" name="comida[]" id="" value="Sushi">Sushi</li>
+                <li><input type="checkbox" name="comida[]" id="" value="Cachorro quente">Cachorro Quente</li>  
+                <li><input type="checkbox" name="comida[]" id="" value="Sushi">Xis</li>
+            </ul>
+        </div>
+             
+            <div>
+              <label for="Descreva suas caracteristicas">descreva suas caracteristicas:</label>
+              <textarea name="descricao" id="quadrado" cols="" rows=""></textarea>
+          </div>
+        
+          <div>
+            <label for="Aceita os termos e cadastro">Aceita os termos e cadastro:</label>
+            <ul class="escolha"> <!--comentario-->
+                <li><input type="radio" name="escolha" id="" value="sim">Sim</li>
+                <li><input type="radio" name="escolha" id="" value="Não">Não</li>
+            </ul>
+          </div>
+          <input type="submit" value="cadastrar" id="botao">
+    
+
+     </fieldset>
+ </form>  
+
+</body>
+</html>

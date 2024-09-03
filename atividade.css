@@ -1,0 +1,94 @@
+
+.borda{
+    width: 400px;
+    height: 800px;
+    margin-left: 300px;
+    background-color: rgb(255, 211, 219);
+    border-radius: 10px;
+ 
+}
+label{
+    width: 100%;
+    display: block;
+    text-align: center;
+    bottom: 10px;
+}
+.titulo{
+    text-align: center;
+    font-family: cursive;
+  
+}
+#nome{
+    background-image: url("./profile.png");
+    background-repeat: no-repeat;
+    height: 25px;
+    background-position-x: 170px;
+    background-color: white;
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 95px;
+    margin-bottom: 20px;
+ 
+}
+ #email{
+    background-image: url(./e-mail.png);
+    background-repeat: no-repeat;
+    height: 25px;
+    background-position-x: 170px;
+    background-color: white;
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 95px;
+    margin-bottom: 20px;
+ }
+ #password{
+    background-image: url(./cadeado.png);
+    background-repeat: no-repeat;
+    height: 30px;
+    background-position-x: 170px;
+    background-color: white;
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 95px;
+    margin-bottom: 20px;
+ 
+ }
+ #sobrenome{
+    background-image: url(./perfil.png);
+    background-repeat: no-repeat;
+    height: 30px;
+    background-position-x: 170px;
+    background-color: white;
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 95px;
+    margin-bottom: 20px;
+ }
+ #data{
+    height: 25px; 
+    background-color: white;
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 95px;
+    margin-bottom: 20px;
+ 
+ }
+ 
+#quadrado{
+     height: 30px;
+     width: 210px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left:95px ;
+
+}
+.escolha{
+  margin-left: 120px;
+}
+#botao{
+    margin-left: 160px;
+}
+ul li{
+    list-style-type: none;
+}
